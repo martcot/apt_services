@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include apt_services *.css
+recursive-include apt_services *.csv
+recursive-include apt_services *.html
+recursive-include apt_services *.ico
+recursive-include apt_services *.js
+recursive-include apt_services *.json
+recursive-include apt_services *.md
+recursive-include apt_services *.png
+recursive-include apt_services *.py
+recursive-include apt_services *.svg
+recursive-include apt_services *.txt
+recursive-exclude apt_services *.pyc
